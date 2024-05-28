@@ -11,7 +11,8 @@ export default function DeviceDetail() {
     const [device, setDevice] = useState();
 
     useEffect(() => {
-        fetchData()
+        fetchData();
+        // eslint-disable-next-line 
     }, []);
 
     const fetchData = async () => {
